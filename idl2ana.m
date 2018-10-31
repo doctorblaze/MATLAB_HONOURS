@@ -17,7 +17,7 @@ function [Out] = idl2ana(infile, voxels, outfile, type, range, format)
 % idl2ana('/Users/nicolas/Desktop/out.img',[40 39 48 22],'/Users/nicolas/Desktop/testana.img', 'static', [10 18], 4);
 %
 % ----------------------------------------
-%
+% Author: Giorgos Angelis
 %% Parse input arguments ------------------------------------
    
     datatype = 4; % this is 4-bytes or 4*8=32 bits float
